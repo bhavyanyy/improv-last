@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+.img {
+    width: 266px;
+    height: 195px;
+    margin-bottom: 50px;
+   
+
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    color: white;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: table;
+    background: linear-gradient(#f2023a,#07e8d2);
+    z-index: 9;
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: cursive;
+    font-size: 20px;
+    float: left;
+    font-weight: 900;
+}
+
+.links:hover {
+    background-color: cornsilk;
+}
+.rules{
+    width:500px;
+    height: 500px;
+}
+
+.container
+{
+    text-align: center;
+}
+
+#myCarousel{
+    background-color: aliceblue;  
+}
+#myCarousel2{
+    background-color:aqua; 
+}
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+#myCarousel2 img {
+    height: 300px;
+    margin-top: 35px;
+}
+.carousel-inner p
+{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color : black;
+    font-size: 20px;
+}
